@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>System ogłoszeń</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>System ogłoszeń</h1>
+    <!-- Dodaj formularz logowania -->
+  </header>
+
+  <main>
+   
+    <section id="post-list">
+      <!-- Wyświetl listę ogłoszeń -->
+      <div class="post">
+        <h2>Przykładowe ogłoszenie</h2>
+        <p>Opis ogłoszenia...</p>
+        <p>Dane kontaktowe: kontakt@example.com</p>
+        <button class="reserve-button">Zarezerwuj</button>
+      </div>
+    </section>
+
+    <section id="post-form">
+      <!-- Dodaj formularz dodawania ogłoszenia -->
+      <h2>Dodaj nowe ogłoszenie</h2>
+      <form>
+        <label for="title">Tytuł:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Opis:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="contact">Dane kontaktowe:</label>
+        <input type="text" id="contact" name="contact" required>
+
+        <button type="submit">Dodaj ogłoszenie</button>
+      </form>
+    </section>
+
+    <section id="reservation-form">
+      <!-- Dodaj formularz rezerwacji -->
+      <h2>Rezerwuj przedmiot</h2>
+      <form>
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Zarezerwuj</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>System ogłoszeń &copy; 2023</p>
+  </footer>
+</body>
+</html>
