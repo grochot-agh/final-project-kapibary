@@ -63,3 +63,43 @@ input[type="submit"]:hover {
     color: #ff0000;
     font-weight: bold;
 }
+
+.posty {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-data {
+    font-size: 14px;
+    color: #666;
+}
+
+.post-lokalizacja {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.post-tresc {
+    margin-top: 10px;
+}
+
+.post-zdjecie img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.post-zarezerwowane {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000;
+}
