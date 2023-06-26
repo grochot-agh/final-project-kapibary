@@ -72,5 +72,21 @@
 
         <input type="submit" value="Zarezerwuj">
     </form>
+
+    <div class="posty">
+        <?php
+        // ...
+        while ($row = $result->fetch_assoc()) {
+            echo '<div class="post">';
+            echo '<div class="post-data">' . $row["data"] . '</div>';
+            echo '<div class="post-lokalizacja">' . $row["lokalizacja"] . '</div>';
+            echo '<div class="post-tresc">' . $row["tresc"] . '</div>';
+            echo '<div class="post-zdjecie"><img src="' . $row["zdjecie"] . '" alt="Zdjęcie ogłoszenia"></div>';
+            echo '<div class="post-zarezerwowane">' . $row["zarezerwowane"] . '</div>';
+            echo '</div>';
+        }
+        ?>
+    </div>
+    
 </body>
 </html>
