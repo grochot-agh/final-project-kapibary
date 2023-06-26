@@ -37,7 +37,7 @@ if (!empty($zdjecie_tmp)) {
 }
 
 // Dodanie ogłoszenia do bazy danych
-$sql = "INSERT INTO ogloszenia (mail, data, lokalizacja, tresc) VALUES ('$email', '$data', '$lokalizacja', '$tresc')";
+$sql = "INSERT INTO ogloszenia (mail, data, lokalizacja, tresc, zdjecie) VALUES ('$email', '$data', '$lokalizacja', '$tresc', '$sciezka_zdjecia')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Ogłoszenie dodane.";
