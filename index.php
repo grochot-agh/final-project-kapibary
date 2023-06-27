@@ -9,7 +9,7 @@
 
     <?php
     // Połączenie z bazą danych
-    $servername = "localhost";
+    $servername = "mysql.agh.edu.pl";
     $username = "ogadomsk";
     $password = "3RGHN8eemi1oFupB";
     $dbname = "ogadomsk";
