@@ -1,6 +1,6 @@
 <?php
 // Połączenie z bazą danych (takie same dane jak w poprzednim kodzie)
-$servername = "localhost";
+$servername = "mysql.agh.edu.pl";
 $username = "ogadomsk";
 $password = "3RGHN8eemi1oFupB";
 $dbname = "ogadomsk";
