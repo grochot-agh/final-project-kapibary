@@ -12,7 +12,7 @@
 
 </h1>
 
-<h4 align="center">Project title</h4>
+<h4 align="center">Tablica ogłoszeniowa</h4>
 
 <p align="center">
   <a >
