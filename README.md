@@ -30,9 +30,10 @@ Projekt prezentuje ...
 
 | Tech                                                    | Description                              |
 | ------------------------------------------------------- | ---------------------------------------- |
+| HTML                           | XYZ   |
+| CSS                           | XYZ   |
+| PHP                           | XYZ   |
 | API                           | XYZ   |
-| [X](X)                           | XYZ   |
-| [X](X)                           | XYZ   |
 
 
 ## Screenshots 📺
@@ -49,10 +50,10 @@ Projekt prezentuje ...
     <img src="" alt="Screenshot">
 </p>
 
-## Code Example/Issues 🔍
+## Code Example/Issues
 
 
-## Installation 💾
+## Installation
 
 ## Available scripts
 
@@ -63,6 +64,4 @@ Projekt prezentuje ...
 | `npm run test`            | Run tests                     |     |
 
 
-## Live 📍
 
-## License 🔱
