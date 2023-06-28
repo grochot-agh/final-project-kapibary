@@ -22,6 +22,9 @@
 </p>
 
 ## Project Overview 🎉
+<p align="center">
+Projekt prezentuje ...
+</p>
 
 ## Tech/framework used 🔧
 
