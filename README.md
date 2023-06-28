@@ -21,12 +21,12 @@
   </a>
 </p>
 
-## Project Overview 🎉
+## Project Overview 
 <p align="center">
 Projekt prezentuje ...
 </p>
 
-## Tech/framework used 🔧
+## Tech/framework used 
 
 | Tech                                                    | Description                              |
 | ------------------------------------------------------- | ---------------------------------------- |
