@@ -36,7 +36,7 @@ Projekt prezentuje ...
 | API                           | XYZ   |
 
 
-## Screenshots 📺
+## Screenshots
 
 <p align="center">
     <img src="" alt="Screenshot">
