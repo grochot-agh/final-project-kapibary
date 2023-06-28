@@ -14,12 +14,6 @@
 
 <h4 align="center">TABLICA OGŁOSZENIOWA</h4>
 
-<p align="center">
-  <a >
-    <img src=""
-         alt="Screenshot">
-  </a>
-</p>
 
 ## Project Overview 
 <p align="center">
