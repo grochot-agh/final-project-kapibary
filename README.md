@@ -6,9 +6,9 @@
 <img src="https://github.com/grochot-agh/final-project-kapibary/blob/main/img/logomaker.png" width = 50% height = 50% alt="Logo">
 </p>
 
-<br>
 
-<br>
+
+
 
 </h1>
 
