@@ -11,18 +11,24 @@ if ($conn->connect_error) {
     die("Nieudane połączenie z bazą danych: " . $conn->connect_error);
 }
 
+$email_rezerwacja = "";
+$id_ogloszenia = "";
 // Pobranie danych z formularza
-$email_rezerwacja = $_POST['email_rezerwacja'];
-$id_ogloszenia = $_POST['id_ogloszenia'];
 
-// Aktualizacja rekordu w bazie danych
-$sql = "UPDATE ogloszenia SET zarezerwowane = '$email_rezerwacja' WHERE id = '$id_ogloszenia'";
-
-if ($conn->query($sql) === TRUE) {
-    echo "Ogłoszenie zarezerwowane.";
-} else {
-    echo "Błąd: " . $sql . "<br>" . $conn->error;
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (isset($_POST["zarezerwuj"])) {
+        $email_rezerwacja = $_POST['email_rezerwacja'];
+        $id_ogloszenia = $_POST['id_ogloszenia'];
+    }
+    // Aktualizacja rekordu w bazie danych
+    $sql = "UPDATE ogloszenia SET zarezerwowane = 1, mail_z = '$email_rezerwacja' WHERE id = '$id_ogloszenia'";
+    
+    if ($conn->query($sql) === TRUE) {
+        echo "Ogłoszenie zarezerwowane.";
+    } else {
+        echo "Błąd: " . $sql . "<br>" . $conn->error;
+    }
+    
+    $conn->close();
 }
-
-$conn->close();
 ?>
