@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<img src=""  alt="Logo">
+<img src="https://github.com/grochot-agh/final-project-kapibary/blob/main/img/logomaker.png"  alt="Logo">
 </p>
 
 <br>
