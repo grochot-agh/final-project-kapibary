@@ -17,7 +17,7 @@
 
 ## Project Overview 
 <p align="center">
-Projekt prezentuje ...
+Projekt prezentuje tablicę ogłoszeń online dla miasta Kraków. Jest to witryna internetowa, która umożliwia użytkownikom dodawanie ogłoszeń na temat przedmiotów, których chcą się pozbyć za darmo. Osoby zainteresowane mogą przeglądać ogłoszenia i składać rezerwacje. Tablica ogłoszeń oferuje również funkcję wyszukiwania, dzięki której można znaleźć konkretne ogłoszenia na podstawie wprowadzonego słowa kluczowego. Na stronie wyświetlana jest również aktualna pogoda w Krakowie, dzięki integracji z API OpenWeatherMap. Projekt ten ma na celu ułatwienie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach społeczności lokalnej.
 </p>
 
 ## Tech/framework used 
