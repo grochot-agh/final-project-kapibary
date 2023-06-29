@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Tablica ogłoszeń</title>
-    <link rel="stylesheet" type="text/css" href="styl.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <head>
+        <title>Tablica ogłoszeń</title>
+        <link rel="stylesheet" type="text/css" href="styl.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Raleway:wght@300&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             // Pobierz dane pogodowe z API OpenWeatherMap
@@ -21,27 +21,21 @@
                     var opis = data.weather[0].description;
                     var ikona = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
                     var pogodaHTML = '<h2>Aktualna pogoda w Krakowie</h2>' +
-                        '<p>Temperatura: ' + temperatura + '°C</p>' +
-                        '<p>Opis: ' + opis + '</p>' +
-                        '<img src="' + ikona + '" alt="Pogoda">';
+                                     '<p>Temperatura: ' + temperatura + '°C</p>' +
+                                     '<p>Opis: ' + opis + '</p>' +
+                                     '<img src="' + ikona + '" alt="Pogoda">';
                     $('#pogoda').html(pogodaHTML);
                 },
                 error: function() {
                     $('#pogoda').html('Nie można pobrać danych pogodowych.');
                 }
             });
-
-            // Handle search form submission
-            $('#search-form').submit(function(event) {
-                event.preventDefault(); // Prevent the form from submitting normally
-                var searchTerm = $('#search-input').val().trim(); // Get the search term from the input field
-
-                // Redirect to the current page with the search term as a URL parameter
-                window.location.href = window.location.pathname + '?search=' + encodeURIComponent(searchTerm);
-            });
         });
     </script>
-</head>
+
+
+    </head>
+<body>
 <body>
 <div class="container">
     <div class="header">
@@ -99,15 +93,9 @@
 
         // Pobranie ogłoszeń z bazy danych
         $sql = "SELECT * FROM ogloszenia";
-        $searchTerm = $_GET['search'] ?? ''; // Get the search term from the URL parameter 'search'
-        if ($searchTerm !== '') {
-            // If a search term is provided, modify the SQL query to filter the results
-            $sql .= " WHERE przedmiot LIKE '%$searchTerm%' OR tresc LIKE '%$searchTerm%' OR lokalizacja LIKE '%$searchTerm%'";
-        }
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            // Display the filtered announcements
             while ($row = $result->fetch_assoc()) {
                 $reserved = $row["zarezerwowane"] == 0 ? "Nie" : "Tak";
                 $zdj = $row["zdjecie"];
@@ -129,6 +117,8 @@
                 echo "</div>";
                 echo "</div>";
                 echo "</div>";
+                
+
             }
         } else {
             echo "Brak ogłoszeń.";
@@ -140,9 +130,8 @@
 
     <div class="footer">
         <p>®KrkOgl, 2023 All Rights Reserved</p>
-        <a href="img\Regulamin.pdf" download>Regulamin</a>
+        <a href="img\Regulamin.pdf" download>  Regulamin</a>
     </div>
-</div>
 
 </body>
 </html>
