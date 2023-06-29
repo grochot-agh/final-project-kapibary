@@ -109,7 +109,7 @@
                 echo "</a>";
                 echo "</div>";
                 echo "<div class='post-text'>";
-                echo "<h2>" . $row["przedmiot"] . "</h2>";
+                echo "<h2>ID: " . $row["ID"] . " - " . $row["przedmiot"] . "</h2>";
                 echo "<p>" . $row["tresc"] . "</p>";
                 echo "<p>Lokalizacja: " . $row["lokalizacja"] . "</p>";
                 echo "<p>Data: " . $row["data"] . "</p>";
