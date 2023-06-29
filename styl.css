@@ -1,105 +1,152 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
-    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 10px; /* Zmniejszenie marginesów */
+    background-color: #f1f6f8dd;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 10px;
 }
 
 h1 {
+    font-size: 28px;
     color: #333;
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
 }
 
-h2 {
-    color: #666;
+p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+a {
+    color: #007bff;
+    text-decoration: none;
 }
 
-table th, table td {
-    padding: 10px;
-    border: 1px solid #ccc;
+a:hover {
+    text-decoration: underline;
 }
 
-table th {
-    background-color: #f9f9f9;
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-form {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-    background-color: #333;
+.footer {
+    background-color: #33333357;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
 }
 
-input[type="submit"]:hover {
-    background-color: #666;
+/* Dodane style */
+.form-box {
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.error {
-    color: #ff0000;
+.form-box:first-child {
+    margin-top: 20px;
+}
+
+.form-box > form {
+    flex: 1;
+    margin-right: 20px;
+    border: 1px solid #224a50;
+    border-radius: 1px;
+    padding: 10px; /* Dodaj padding dla wyrównania zawartości */
+    box-sizing: border-box; /* Uwzględnij padding w szerokości */
+}
+
+.form-box > form:last-child {
+    margin-right: 0; /* Usuń margines po prawej stronie ostatniego formularza */
+}
+
+th {
+    height: 20px;
     font-weight: bold;
-}
-
-.posty {
-    display: grid;
-    grid-gap: 20px;
+    font-size: 1.2em;
 }
 
 .post {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #224a50;
+    border-radius: 1px;
+    padding: 10px;
+    background-color: rgb(249, 255, 255);
+    margin-bottom: 20px;
+    justify-content: space-between;
 }
 
-.post-data {
-    font-size: 14px;
-    color: #666;
+.post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-.post-lokalizacja {
-    font-size: 18px;
+.post p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.image-container {
+    overflow: hidden;
+    margin:20px;
+    width: 150px; /* lub dowolna inna wartość szerokości, jeśli chcesz ustawić maksymalną szerokość kontenera obrazka */
+    height: 150px; /* lub dowolna inna wartość wysokości, jeśli chcesz ustawić maksymalną wysokość kontenera obrazka */
+}
+
+.post .reserved {
+    color: red;
     font-weight: bold;
-    color: #333;
-    margin-top: 10px;
 }
 
-.post-tresc {
-    margin-top: 10px;
+.post-content {
+    display: flex;
+    align-items: center;
 }
 
-.post-zdjecie img {
+.post-image {
     max-width: 100%;
     height: auto;
-    margin-top: 10px;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
 }
 
-.post-zarezerwowane {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #ff0000;
+.post-image:hover {
+    transform: scale(1.2);
 }
+
+.post-text {
+    flex:1
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
