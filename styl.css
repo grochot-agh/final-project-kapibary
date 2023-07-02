@@ -8,6 +8,9 @@ body {
     padding: 10px; /* Zmniejszenie marginesów */
     background-color: #f1f6f8dd;
     color: #333;
+    background-image: url('img/tło.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -27,10 +30,11 @@ body {
 }
 
 h1 {
-    font-size: 28px;
-    color: #333;
+    font-size: 33px;
+    color: #426a6b;
     margin: 0;
     font-family: 'Caprasimo', cursive;
+    letter-spacing: 7px;
 }
 
 p {
@@ -48,11 +52,12 @@ a:hover {
 }
 
 .container {
-    max-width: 1050px;
-    margin: 0 auto;
+    max-width: fit-content;
+    margin: 5%;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(250, 254, 255);
 }
 
 .footer {
@@ -104,6 +109,7 @@ th {
     background-color: rgb(249, 255, 255);
     margin-bottom: 20px;
     justify-content: space-between;
+    
 }
 
 .post h2 {
