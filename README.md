@@ -23,8 +23,7 @@
 Projekt preznstuje tablicę ogłoszeń dla miasta Kraków. Jest to witryna internetowa, która umożliwia dodawanie ogłoszeń na 
 temat przedmiotów, których chcą się pozbyć za darmo. Osoby zainteresowana mogą przeglądać ogłoszenia i składać rezerwacje. Tablica
 ogłoszeń oferuje również funkcję wyszukiwania, dzięki której można znaleźć konkretne ogłoszenia na podstawie wprowadzonego słowa
-kluczowego. Na stronie wyświetlany jest również kalendarz działający na zasadzie wykorzystania technologii API. Projekt ten ma na celu
-ułatwianie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach społeczności lokalnej.
+kluczowego. Projekt ten ma na celu ułatwianie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach społeczności lokalnej.
 </p>
 
 ## Tech/framework used 
@@ -34,13 +33,13 @@ ułatwianie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach spo
 | HTML                          | tworzy stronę internetowąi np. używany do wyświetlania aktualnego ogłoszenia z bazy danych  |
 | CSS                           | używany do zmiany wyglądu strony  |
 | PHP                           | używany m.in. do połączenia z bazą danych, pobrania wartości z formularza  |
-| API                           | używane do wyświetlania kalendarza  |
 
 
 ## Screenshots
 
 <p align="center">
-    <img src="" alt="Screenshot">
+    <img src="img/screen aplikacja 2.jpg">
+    <i><p align="center" >Fragment kodu przedstawiający pobieranie danych z bazy danych</p>
 </p>
 
 <p align="center">
