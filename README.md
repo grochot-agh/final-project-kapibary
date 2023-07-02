@@ -31,10 +31,10 @@ ułatwianie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach spo
 
 | Tech                                                    | Description                              |
 | ------------------------------------------------------- | ---------------------------------------- |
-| HTML                           | XYZ   |
-| CSS                           | XYZ   |
-| PHP                           | XYZ   |
-| API                           | XYZ   |
+| HTML                          | tworzy stronę internetowąi np. używany do wyświetlania aktualnego ogłoszenia z bazy danych  |
+| CSS                           | używany do zmiany wyglądu strony  |
+| PHP                           | używany m.in. do połączenia z bazą danych, pobrania wartości z formularza  |
+| API                           | używane do wyświetlania kalendarza  |
 
 
 ## Screenshots
