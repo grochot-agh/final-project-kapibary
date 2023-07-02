@@ -36,33 +36,34 @@ kluczowego. Projekt ten ma na celu ułatwianie mieszkańcom Krakowa komunikacji 
 
 <p align="center">
     <img src="img/screen aplikacja 1.jpg">
-    <i><p align="center" >Wygląd aplikacji</p><br><br>
+    <i><p align="center" >Wygląd aplikacji</p></i><br><br>
 </p>
 
 <p align="center">
     <img src="img/screen aplikacja 7.png">
-    <i><p align="center" >Baza danych</p><br><br>
+    <i><p align="center" >Baza danych</p></i><br><br>
 </p>
 
 ## Code Example/Issues
 
 <p align="center">
     <img src="img/screen aplikacja 2.jpg">
-    <i><p align="center" >Fragment kodu przedstawiający pobieranie danych z bazy danych</p><br><br>
+    <i><p align="center" >Fragment kodu przedstawiający pobieranie danych z bazy danych</p></i><br><br>
 </p>
 
 <p align="center">
     <img src="img/screen aplikacja 3.jpg">
-    <i><p align="center" >Fragment kodu przedstawiający dodawanie i rezerwowanie ogłoszeń</p><br><br>
+    <i><p align="center" >Fragment kodu przedstawiający dodawanie i rezerwowanie ogłoszeń</p></i><br><br>
 </p>
 
 <p align="center">
     <img src="img/screen aplikacja 4.jpg">
-    <i><p align="center" >Fragment kodu przedstawiający rezerwowanie ogłoszeń poprzez łączenie się z bazą danych</p><br>
+    <i><p align="center" >Fragment kodu przedstawiający rezerwowanie ogłoszeń poprzez łączenie się z bazą danych</p></i><br>
 </p>
 
 ## How to run
 
+Aplikacja jest połączona z bazą danych na stałe, login i hasło do niej potrzebne są zapisane w kodzie. Należy pobrać wszystkie pliki i uruchomić je korzystając z vpn agh.
 
 
 
