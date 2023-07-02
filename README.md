@@ -37,23 +37,27 @@ kluczowego. Projekt ten ma na celu ułatwianie mieszkańcom Krakowa komunikacji 
 
 ## Screenshots
 
-<p align="center">
-    <img src="img/screen aplikacja 2.jpg">
-    <i><p align="center" >Fragment kodu przedstawiający pobieranie danych z bazy danych</p>
-</p>
 
-<p align="center">
-    <img src="" alt="Screenshot">
-</p>
 
-<p align="center">
-    <img src="" alt="Screenshot">
-</p>
 
 ## Code Example/Issues
 
+<p align="center">
+    <img src="img/screen aplikacja 2.jpg">
+    <i><p align="center" >Fragment kodu przedstawiający pobieranie danych z bazy danych</p><br><br>
+</p>
 
-## Installation
+<p align="center">
+    <img src="img/screen aplikacja 3.jpg">
+    <i><p align="center" >Fragment kodu przedstawiający dodawanie i rezerwowanie ogłoszeń</p><br><br>
+</p>
+
+<p align="center">
+    <img src="img/screen aplikacja 4.jpg">
+    <i><p align="center" >Fragment kodu przedstawiający rezerwowanie ogłoszeń poprzez łączenie się z bazą danych</p><br>
+</p>
+
+## How to run
 
 
 
