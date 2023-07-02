@@ -13,6 +13,9 @@
 </h1>
 
 <h4 align="center">TABLICA OGŁOSZENIOWA</h4>
+<p align="center">
+    <img src="img/screen aplikacja 1.jpg">
+</p>
 
 
 ## Project Overview 
