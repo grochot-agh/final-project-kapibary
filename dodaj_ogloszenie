@@ -54,11 +54,17 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST'){
 
 
         if ($conn->query($sql) === TRUE) {
-            echo "Ogłoszenie dodane.";
+            echo "<script>alert('Ogłoszenie dodane')</script>";
+            header("Refresh:0.2; url=index.php"); 
         } else {
             echo "Błąd: " . $sql . "<br>" . $conn->error;
         }
 
+        $conn->close();
+    }
+}
+
+?>
         $conn->close();
     }
 }
