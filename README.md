@@ -20,7 +20,11 @@
 
 ## Project Overview 
 <p align="center">
-Projekt prezentuje ...
+Projekt preznstuje tablicę ogłoszeń dla miasta Kraków. Jest to witryna internetowa, która umożliwia dodawanie ogłoszeń na 
+temat przedmiotów, których chcą się pozbyć za darmo. Osoby zainteresowana mogą przeglądać ogłoszenia i składać rezerwacje. Tablica
+ogłoszeń oferuje również funkcję wyszukiwania, dzięki której można znaleźć konkretne ogłoszenia na podstawie wprowadzonego słowa
+kluczowego. Na stronie wyświetlany jest również kalendarz działający na zasadzie wykorzystania technologii API. Projekt ten ma na celu
+ułatwianie mieszkańcom Krakowa komunikacji i wymiany przedmiotów w ramach społeczności lokalnej.
 </p>
 
 ## Tech/framework used 
