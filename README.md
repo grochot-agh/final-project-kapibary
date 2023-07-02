@@ -13,9 +13,6 @@
 </h1>
 
 <h4 align="center">TABLICA OGŁOSZENIOWA</h4>
-<p align="center">
-    <img src="img/screen aplikacja 1.jpg">
-</p>
 
 
 ## Project Overview 
@@ -37,8 +34,15 @@ kluczowego. Projekt ten ma na celu ułatwianie mieszkańcom Krakowa komunikacji 
 
 ## Screenshots
 
+<p align="center">
+    <img src="img/screen aplikacja 1.jpg">
+    <i><p align="center" >Wygląd aplikacji</p><br><br>
+</p>
 
-
+<p align="center">
+    <img src="img/screen aplikacja 7.png">
+    <i><p align="center" >Baza danych</p><br><br>
+</p>
 
 ## Code Example/Issues
 
