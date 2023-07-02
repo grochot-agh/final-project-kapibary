@@ -127,7 +127,7 @@
 
     <div class="footer">
         <p>®KrkOgl, 2023 All Rights Reserved</p>
-        <a href="img\Regulamin.pdf" download>Regulamin</a>
+        <a href="img\Regulamin.pdf" download>.    Regulamin</a>
     </div>
 </div>
 </body>
